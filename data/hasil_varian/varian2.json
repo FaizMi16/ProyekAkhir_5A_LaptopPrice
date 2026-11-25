@@ -1,0 +1,86 @@
+{
+  "varian": 2,
+  "nama": "Validasi k (Silhouette Score)",
+  "yang_diubah": "Jumlah klaster ditentukan dari Silhouette tertinggi",
+  "fitur_dipakai": [
+    "Inches",
+    "Ram_GB",
+    "Weight_kg",
+    "CPU_GHz",
+    "Storage_GB",
+    "Has_SSD",
+    "Has_HDD",
+    "Touchscreen",
+    "IPS",
+    "Price_euros"
+  ],
+  "k_terpilih": 5,
+  "k_menurut_elbow": 5,
+  "berbeda_dari_elbow": false,
+  "penjelasan_perbedaan": "Kedua varian menunjuk nilai k yang sama, sehingga pilihan k berdiri di atas dua dasar yang saling menguatkan.",
+  "tafsiran": "struktur lemah tetapi masih dapat dipertanggungjawabkan",
+  "metrik_utama": {
+    "silhouette": 0.3161
+  },
+  "baris_silhouette_negatif": 35,
+  "metrik_pendukung": {
+    "inertia": 5819.28,
+    "davies_bouldin": 1.2311
+  },
+  "tabel_k": [
+    {
+      "k": 2,
+      "inertia": 9544.0026,
+      "silhouette": 0.2743,
+      "davies_bouldin": 1.55
+    },
+    {
+      "k": 3,
+      "inertia": 7764.1703,
+      "silhouette": 0.281,
+      "davies_bouldin": 1.2598
+    },
+    {
+      "k": 4,
+      "inertia": 6587.1245,
+      "silhouette": 0.2974,
+      "davies_bouldin": 1.3088
+    },
+    {
+      "k": 5,
+      "inertia": 5819.2843,
+      "silhouette": 0.3161,
+      "davies_bouldin": 1.2311
+    },
+    {
+      "k": 6,
+      "inertia": 5314.916,
+      "silhouette": 0.3049,
+      "davies_bouldin": 1.2339
+    },
+    {
+      "k": 7,
+      "inertia": 4937.9656,
+      "silhouette": 0.2922,
+      "davies_bouldin": 1.3721
+    },
+    {
+      "k": 8,
+      "inertia": 4619.8685,
+      "silhouette": 0.276,
+      "davies_bouldin": 1.3265
+    },
+    {
+      "k": 9,
+      "inertia": 4340.2055,
+      "silhouette": 0.2458,
+      "davies_bouldin": 1.3871
+    },
+    {
+      "k": 10,
+      "inertia": 4157.9419,
+      "silhouette": 0.2458,
+      "davies_bouldin": 1.3231
+    }
+  ]
+}
